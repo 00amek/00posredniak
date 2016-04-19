@@ -34,6 +34,7 @@ public class probnyServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println();
 		out.println("Dzien dobry ! Pozdrawiam szefa.");
+		out.println("Siemanko Pezet z tej strony.");
 	}
 
 	/**
