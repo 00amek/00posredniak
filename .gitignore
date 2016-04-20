@@ -7,5 +7,8 @@ build
 # Ignorowanie pliku z informacjami o katalogu (Linux)
 .directory
 
+# Ignorowanie jednego pliku z katalogu z ustawieniami (test)
+.settings/org.eclipse.jdt.core.prefs
+
 # Ignorowanie katalogu z ustawieniami (test)
-.settings
+#.settings
