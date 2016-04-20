@@ -1,0 +1,11 @@
+# Ignorowanie pliku z ustawieniami dołączonych bibliotek (najlepiej skopiować sobie z innego projektu)
+.classpath
+
+# Ignorowanie katalogu ze zbudowanymi klasami
+build
+
+# Ignorowanie pliku z informacjami o katalogu (Linux)
+.directory
+
+# Ignorowanie katalogu z ustawieniami (test)
+.settings
