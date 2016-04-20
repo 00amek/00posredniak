@@ -1,6 +1,6 @@
 Stworzyłem plik w którym dodałem reguły, aby nie synchronizowało plików:
 .classpath
 .settings/org.eclipse.jdt.core.prefs
-
+.settings/org.eclipse.wst.common.project.facet.core.xml
  
 Będziecie musieli skopiować je do tego projektu z innego projektu, który działa :)
