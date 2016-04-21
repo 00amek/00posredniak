@@ -21,31 +21,31 @@ public class probnyServlet extends HttpServlet {
      */
     public probnyServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		PrintWriter out = response.getWriter();
 		out.println();
 		out.println("Dzien dobry ! Pozdrawiam szefa.");
+
 		out.println("Siemanko Pezet z tej strony");
 		out.println("Rysiek pozdrawiam");
 		out.println("Dziala ? ");
-		out.println("Ziemniak");
-		
+		out.println("Ziemniak");		//Ł
+		out.println("Dziala! ALe pojebany ten eclipse. Komandor nie instaluj go!");
+		out.println("On nie miał zamiaru nawet xD"); 	//Ł
+
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 
