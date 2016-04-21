@@ -37,6 +37,7 @@ public class probnyServlet extends HttpServlet {
 		out.println("Siemanko Pezet z tej strony");
 		out.println("Rysiek pozdrawiam");
 		out.println("Dziala ? ");
+		out.println("Ziemniak");
 		
 	}
 
